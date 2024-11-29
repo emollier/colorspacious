@@ -8,7 +8,7 @@ from .conversion import cspace_convert
 
 def deltaE(color1, color2,
            input_space="sRGB1", uniform_space="CAM02-UCS"):
-    """Computes the :math:`\Delta E` distance between pairs of colors.
+    r"""Computes the :math:`\Delta E` distance between pairs of colors.
 
     :param input_space: The space the colors start out in. Can be anything
        recognized by :func:`cspace_convert`. Default: "sRGB1"
